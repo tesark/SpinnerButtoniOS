@@ -42,7 +42,7 @@ We can set uibutton title with SB_setbuttonTitle attributes
 
 # Button Icon
 
-        myButton.SB_setBadge(badge: "73")
+        myButton.SB_setButtonicon = FAType.FAAlignLeft
 
 # Button Icon Alignment 
 
