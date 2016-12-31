@@ -1,9 +1,9 @@
 //
 //  TSButton.swift
-//  TesarkOpenSource
+//  Tesark Technologies
 //
-//  Created by Mac Mini on 24/12/16.
-//  Copyright © 2016 Mac Mini. All rights reserved.
+//  Created by Tesark Technologies on 31/12/16.
+//  Copyright © 2016 Tesark Technologies. All rights reserved.
 //
 
 
