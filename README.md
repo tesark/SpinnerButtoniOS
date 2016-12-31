@@ -12,7 +12,7 @@ SpinnerButton is a UIButton subclass optimized for non-rectangular button shapes
      
 # Button Style
 
-  There are primary button, default button, ghost button and dashed button in TESARK Button
+  There are primary button, default button, ghost button and dashed button in SpinnerButton
 
 SB_style  can be set as primary or ghost or dashed, in order to create primary button or ghost button or dashed button. If nothing is provided to type, we will get default button. Users can tell the significance of button from it's appearance.
 
