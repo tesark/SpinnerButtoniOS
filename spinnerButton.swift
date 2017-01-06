@@ -233,13 +233,27 @@ class spinnerButton: UIButton {
     //MARK: Setup 
     
     func SB_setup(){
-        
+        self.addTarget(self, action: #selector(spinnerButton.SB_buttonClicked(button:)), for: .touchUpInside)
         layer.cornerRadius = 8.0
         backgroundColor =  UIColor.hexStringToUIColor(hex:"#108ee9")
         self.tintColor = UIColor.white
         self.setTitleColor(UIColor.white, for: .normal)
         SB_ConfigureButtonstyles(style: .primary)
     }
+    
+    
+     @objc private func SB_buttonClicked(button:UIButton) {
+        
+        UIView.animate(withDuration: 0.1, animations: {
+                button.transform = CGAffineTransform.identity.scaledBy(x: 0.9, y: 0.9)
+            }, completion: { (finish) in
+                UIView.animate(withDuration: 0.1, animations: {
+                    button.transform = CGAffineTransform.identity
+                })
+            })
+    }
+    
+    
     
     override func setTitle(_ title: String?, for state: UIControlState) {
         UIView.performWithoutAnimation({
