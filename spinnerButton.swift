@@ -18,7 +18,7 @@ enum SBStyle {
 
 import UIKit
 
-class spinnerButton: UIButton {
+class SpinnerButton: UIButton {
     
     //MARK:  Badge
     var SB_badgeview = UIView()
