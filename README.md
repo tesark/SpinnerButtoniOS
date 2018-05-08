@@ -8,7 +8,7 @@ SpinnerButton is a UIButton subclass optimized for non-rectangular button shapes
 
 # Create Button 
 
-     let myButton = spinnerButton.init(frame:CGRect(x:50,y:250,width:150,height:40))
+     let myButton = SpinnerButton.init(frame:CGRect(x:50,y:250,width:150,height:40))
      
 # Button Style
 
@@ -61,7 +61,7 @@ We can set uibutton title with SB_setbuttonTitle attributes
 
 
 # SpinnerButton Example 
-        let myButton = spinnerButton.init(frame:CGRect(x:50,y:250,width:150,height:40))
+        let myButton = SpinnerButton.init(frame:CGRect(x:50,y:250,width:150,height:40))
 
         myButton.addTarget(self, action: #selector(self.demo(button:)), for: UIControlEvents.touchUpInside)
         myButton.SB_setBadge(badge: "73")
